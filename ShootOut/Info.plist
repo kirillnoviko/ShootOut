@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>acces for profile</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Bungee-Regular.ttf</string>
+		<string>Karla-Bold.ttf</string>
+		<string>Karla-BoldItalic.ttf</string>
+		<string>Karla-ExtraBold.ttf</string>
+		<string>Karla-ExtraLightItalicttf</string>
+		<string>Karla-Italic.ttf</string>
+		<string>Karla-Light.ttf</string>
+		<string>Karla-LightItalic.ttf</string>
+		<string>Karla-Medium.ttf</string>
+		<string>Karla-MediumItalic.ttf</string>
+		<string>Karla-Regular.ttf</string>
+		<string>Karla-SemiBold.ttf</string>
+		<string>Karla-SemiBoldItalic.ttf</string>
+		<string>Karla-BoldItalic.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

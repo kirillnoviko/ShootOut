@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4ADD1D2D3C55360048CDA1 /* ShootOutWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD1C2D3C55360048CDA1 /* ShootOutWorkoutViewController.swift */; };
+		CE4ADD342D3CF9180048CDA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4ADD332D3CF9180048CDA1 /* CoreData.framework */; };
+		CE4ADD372D3CF94B0048CDA1 /* SOTInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD352D3CF94B0048CDA1 /* SOTInfo.xcdatamodeld */; };
+		CE4ADD3B2D3D3B530048CDA1 /* ShootOutWorkoutADDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD3A2D3D3B530048CDA1 /* ShootOutWorkoutADDViewController.swift */; };
+		CE4ADD402D3D801A0048CDA1 /* SchelduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD3F2D3D801A0048CDA1 /* SchelduleCollectionViewCell.swift */; };
+		CE4ADD442D3E6BA50048CDA1 /* ShootOutWorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD432D3E6BA50048CDA1 /* ShootOutWorkoutDetailViewController.swift */; };
+		CE4ADD882D3E6EFD0048CDA1 /* CellDateWorkout.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD7A2D3E6EFD0048CDA1 /* CellDateWorkout.xib */; };
+		CE4ADD892D3E6EFD0048CDA1 /* CellForScheldule.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD7B2D3E6EFD0048CDA1 /* CellForScheldule.xib */; };
+		CE4ADD8A2D3E6EFD0048CDA1 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD7C2D3E6EFD0048CDA1 /* MainCollectionViewCell.xib */; };
+		CE4ADD8B2D3E6EFD0048CDA1 /* SubcategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD7D2D3E6EFD0048CDA1 /* SubcategoryCollectionViewCell.xib */; };
+		CE4ADD8C2D3E6EFD0048CDA1 /* SOTBaseExercisesDetailScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD7F2D3E6EFD0048CDA1 /* SOTBaseExercisesDetailScreenView.storyboard */; };
+		CE4ADD8D2D3E6EFD0048CDA1 /* SOTBaseExercisesScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD802D3E6EFD0048CDA1 /* SOTBaseExercisesScreenView.storyboard */; };
+		CE4ADD8E2D3E6EFD0048CDA1 /* SOTLoaderScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD812D3E6EFD0048CDA1 /* SOTLoaderScreenView.storyboard */; };
+		CE4ADD8F2D3E6EFD0048CDA1 /* SOTMainScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD822D3E6EFD0048CDA1 /* SOTMainScreenView.storyboard */; };
+		CE4ADD902D3E6EFD0048CDA1 /* SOTSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD832D3E6EFD0048CDA1 /* SOTSettings.storyboard */; };
+		CE4ADD912D3E6EFD0048CDA1 /* SOTWorkoutADDScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD842D3E6EFD0048CDA1 /* SOTWorkoutADDScreenView.storyboard */; };
+		CE4ADD922D3E6EFD0048CDA1 /* SOTWorkoutDetailScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD852D3E6EFD0048CDA1 /* SOTWorkoutDetailScreenView.storyboard */; };
+		CE4ADD932D3E6EFD0048CDA1 /* SOTWorkoutScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD862D3E6EFD0048CDA1 /* SOTWorkoutScreenView.storyboard */; };
+		CE4ADD952D3E6F240048CDA1 /* SOTVideoTrainScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD942D3E6F240048CDA1 /* SOTVideoTrainScreenView.storyboard */; };
+		CE4ADD972D3E770C0048CDA1 /* ShootOutVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD962D3E770C0048CDA1 /* ShootOutVideoViewController.swift */; };
+		CE4ADD9B2D3E787A0048CDA1 /* VideoTrainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD9A2D3E787A0048CDA1 /* VideoTrainCollectionViewCell.xib */; };
+		CE4ADD9D2D3E7A6B0048CDA1 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADD9C2D3E7A6B0048CDA1 /* VideoCollectionViewCell.swift */; };
+		CE4ADD9F2D3E8D430048CDA1 /* SOTProfileScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADD9E2D3E8D430048CDA1 /* SOTProfileScreenView.storyboard */; };
+		CE4ADDA12D3E93120048CDA1 /* ShootOutProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADDA02D3E93120048CDA1 /* ShootOutProfileViewController.swift */; };
+		CE4ADDA32D3EB0430048CDA1 /* SOTGoalsScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADDA22D3EB0420048CDA1 /* SOTGoalsScreenView.storyboard */; };
+		CE4ADDA52D3EB0850048CDA1 /* ShootOutGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADDA42D3EB0850048CDA1 /* ShootOutGoalsViewController.swift */; };
+		CE4ADDA92D3EE1AF0048CDA1 /* GoalsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4ADDA82D3EE1AF0048CDA1 /* GoalsCollectionViewCell.xib */; };
+		CE4ADDAB2D3EE7F70048CDA1 /* GoalsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ADDAA2D3EE7F60048CDA1 /* GoalsCollectionViewCell.swift */; };
+		CE8CE3C12D3BD3690090F5EF /* ShootOutBaseExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CE3C02D3BD3690090F5EF /* ShootOutBaseExercisesViewController.swift */; };
+		CE8CE3C32D3BD4250090F5EF /* ShootOutBaseExercisesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CE3C22D3BD4250090F5EF /* ShootOutBaseExercisesDetail.swift */; };
+		CE8CE3C92D3BDC3F0090F5EF /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CE3C82D3BDC3F0090F5EF /* MainCollectionViewCell.swift */; };
+		CE8CE3CB2D3BDC690090F5EF /* SubcategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CE3CA2D3BDC690090F5EF /* SubcategoryCollectionViewCell.swift */; };
+		CE97CBA62D3989E500A4C127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CB9E2D3989E500A4C127 /* AppDelegate.swift */; };
+		CE97CBA72D3989E500A4C127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBA32D3989E500A4C127 /* SceneDelegate.swift */; };
+		CE97CBA92D3989E500A4C127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE97CB9F2D3989E500A4C127 /* Assets.xcassets */; };
+		CE97CBAB2D3989E500A4C127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBA22D3989E500A4C127 /* LaunchScreen.storyboard */; };
+		CE97CBAD2D39921300A4C127 /* ShootOutLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBAC2D39921300A4C127 /* ShootOutLoaderViewController.swift */; };
+		CE97CBAF2D3992A500A4C127 /* ShootOutMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBAE2D3992A500A4C127 /* ShootOutMainViewController.swift */; };
+		CE97CBC62D3995F800A4C127 /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBC2D3995F800A4C127 /* Karla-ExtraLightItalic.ttf */; };
+		CE97CBC72D3995F800A4C127 /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBC12D3995F800A4C127 /* Karla-MediumItalic.ttf */; };
+		CE97CBC82D3995F800A4C127 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBC02D3995F800A4C127 /* Karla-Medium.ttf */; };
+		CE97CBC92D3995F800A4C127 /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBB2D3995F800A4C127 /* Karla-ExtraLight.ttf */; };
+		CE97CBCA2D3995F800A4C127 /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBC32D3995F800A4C127 /* Karla-SemiBold.ttf */; };
+		CE97CBCB2D3995F800A4C127 /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBE2D3995F800A4C127 /* Karla-Light.ttf */; };
+		CE97CBCC2D3995F800A4C127 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBB92D3995F800A4C127 /* Karla-ExtraBold.ttf */; };
+		CE97CBCD2D3995F800A4C127 /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBC42D3995F800A4C127 /* Karla-SemiBoldItalic.ttf */; };
+		CE97CBCE2D3995F800A4C127 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBB82D3995F800A4C127 /* Karla-BoldItalic.ttf */; };
+		CE97CBCF2D3995F800A4C127 /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBF2D3995F800A4C127 /* Karla-LightItalic.ttf */; };
+		CE97CBD02D3995F800A4C127 /* Bungee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBB52D3995F800A4C127 /* Bungee-Regular.ttf */; };
+		CE97CBD12D3995F800A4C127 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBC22D3995F800A4C127 /* Karla-Regular.ttf */; };
+		CE97CBD22D3995F800A4C127 /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBA2D3995F800A4C127 /* Karla-ExtraBoldItalic.ttf */; };
+		CE97CBD32D3995F800A4C127 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBBD2D3995F800A4C127 /* Karla-Italic.ttf */; };
+		CE97CBD42D3995F800A4C127 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE97CBB72D3995F800A4C127 /* Karla-Bold.ttf */; };
+		CE97CBDB2D3AD7A700A4C127 /* ShootOutSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBDA2D3AD7A700A4C127 /* ShootOutSettingsViewController.swift */; };
+		CE97CBDD2D3ADE9800A4C127 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBDC2D3ADE9800A4C127 /* UIColor.swift */; };
+		CE97CBDF2D3AE23700A4C127 /* SOTBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBDE2D3AE23700A4C127 /* SOTBaseController.swift */; };
+		CE97CBE12D3AE86000A4C127 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97CBE02D3AE86000A4C127 /* ThemeManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE4ADD1C2D3C55360048CDA1 /* ShootOutWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutWorkoutViewController.swift; sourceTree = "<group>"; };
+		CE4ADD332D3CF9180048CDA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE4ADD362D3CF94B0048CDA1 /* SOTInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOTInfo.xcdatamodel; sourceTree = "<group>"; };
+		CE4ADD3A2D3D3B530048CDA1 /* ShootOutWorkoutADDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutWorkoutADDViewController.swift; sourceTree = "<group>"; };
+		CE4ADD3F2D3D801A0048CDA1 /* SchelduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchelduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE4ADD432D3E6BA50048CDA1 /* ShootOutWorkoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutWorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		CE4ADD7A2D3E6EFD0048CDA1 /* CellDateWorkout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDateWorkout.xib; sourceTree = "<group>"; };
+		CE4ADD7B2D3E6EFD0048CDA1 /* CellForScheldule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForScheldule.xib; sourceTree = "<group>"; };
+		CE4ADD7C2D3E6EFD0048CDA1 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE4ADD7D2D3E6EFD0048CDA1 /* SubcategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubcategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE4ADD7F2D3E6EFD0048CDA1 /* SOTBaseExercisesDetailScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTBaseExercisesDetailScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD802D3E6EFD0048CDA1 /* SOTBaseExercisesScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTBaseExercisesScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD812D3E6EFD0048CDA1 /* SOTLoaderScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTLoaderScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD822D3E6EFD0048CDA1 /* SOTMainScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTMainScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD832D3E6EFD0048CDA1 /* SOTSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTSettings.storyboard; sourceTree = "<group>"; };
+		CE4ADD842D3E6EFD0048CDA1 /* SOTWorkoutADDScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTWorkoutADDScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD852D3E6EFD0048CDA1 /* SOTWorkoutDetailScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTWorkoutDetailScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD862D3E6EFD0048CDA1 /* SOTWorkoutScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTWorkoutScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD942D3E6F240048CDA1 /* SOTVideoTrainScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTVideoTrainScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADD962D3E770C0048CDA1 /* ShootOutVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutVideoViewController.swift; sourceTree = "<group>"; };
+		CE4ADD9A2D3E787A0048CDA1 /* VideoTrainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTrainCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE4ADD9C2D3E7A6B0048CDA1 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE4ADD9E2D3E8D430048CDA1 /* SOTProfileScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTProfileScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADDA02D3E93120048CDA1 /* ShootOutProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutProfileViewController.swift; sourceTree = "<group>"; };
+		CE4ADDA22D3EB0420048CDA1 /* SOTGoalsScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SOTGoalsScreenView.storyboard; sourceTree = "<group>"; };
+		CE4ADDA42D3EB0850048CDA1 /* ShootOutGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutGoalsViewController.swift; sourceTree = "<group>"; };
+		CE4ADDA82D3EE1AF0048CDA1 /* GoalsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalsCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE4ADDAA2D3EE7F60048CDA1 /* GoalsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE8CE3C02D3BD3690090F5EF /* ShootOutBaseExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutBaseExercisesViewController.swift; sourceTree = "<group>"; };
+		CE8CE3C22D3BD4250090F5EF /* ShootOutBaseExercisesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutBaseExercisesDetail.swift; sourceTree = "<group>"; };
+		CE8CE3C82D3BDC3F0090F5EF /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE8CE3CA2D3BDC690090F5EF /* SubcategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE97CB862D39899E00A4C127 /* ShootOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE97CB9E2D3989E500A4C127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE97CB9F2D3989E500A4C127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE97CBA02D3989E500A4C127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE97CBA12D3989E500A4C127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE97CBA32D3989E500A4C127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE97CBAC2D39921300A4C127 /* ShootOutLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutLoaderViewController.swift; sourceTree = "<group>"; };
+		CE97CBAE2D3992A500A4C127 /* ShootOutMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutMainViewController.swift; sourceTree = "<group>"; };
+		CE97CBB52D3995F800A4C127 /* Bungee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bungee-Regular.ttf"; sourceTree = "<group>"; };
+		CE97CBB72D3995F800A4C127 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		CE97CBB82D3995F800A4C127 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBB92D3995F800A4C127 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE97CBBA2D3995F800A4C127 /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBBB2D3995F800A4C127 /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CE97CBBC2D3995F800A4C127 /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBBD2D3995F800A4C127 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		CE97CBBE2D3995F800A4C127 /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		CE97CBBF2D3995F800A4C127 /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBC02D3995F800A4C127 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		CE97CBC12D3995F800A4C127 /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBC22D3995F800A4C127 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		CE97CBC32D3995F800A4C127 /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE97CBC42D3995F800A4C127 /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CE97CBDA2D3AD7A700A4C127 /* ShootOutSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOutSettingsViewController.swift; sourceTree = "<group>"; };
+		CE97CBDC2D3ADE9800A4C127 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CE97CBDE2D3AE23700A4C127 /* SOTBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTBaseController.swift; sourceTree = "<group>"; };
+		CE97CBE02D3AE86000A4C127 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE97CB832D39899E00A4C127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4ADD342D3CF9180048CDA1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4ADD322D3CF9180048CDA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4ADD332D3CF9180048CDA1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4ADD3C2D3D3B5E0048CDA1 /* ControllersCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CE3C82D3BDC3F0090F5EF /* MainCollectionViewCell.swift */,
+				CE8CE3CA2D3BDC690090F5EF /* SubcategoryCollectionViewCell.swift */,
+				CE4ADD3F2D3D801A0048CDA1 /* SchelduleCollectionViewCell.swift */,
+				CE4ADD9C2D3E7A6B0048CDA1 /* VideoCollectionViewCell.swift */,
+				CE4ADDAA2D3EE7F60048CDA1 /* GoalsCollectionViewCell.swift */,
+			);
+			path = ControllersCell;
+			sourceTree = "<group>";
+		};
+		CE4ADD7E2D3E6EFD0048CDA1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE4ADD7A2D3E6EFD0048CDA1 /* CellDateWorkout.xib */,
+				CE4ADD7B2D3E6EFD0048CDA1 /* CellForScheldule.xib */,
+				CE4ADD7C2D3E6EFD0048CDA1 /* MainCollectionViewCell.xib */,
+				CE4ADD7D2D3E6EFD0048CDA1 /* SubcategoryCollectionViewCell.xib */,
+				CE4ADD9A2D3E787A0048CDA1 /* VideoTrainCollectionViewCell.xib */,
+				CE4ADDA82D3EE1AF0048CDA1 /* GoalsCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE4ADD872D3E6EFD0048CDA1 /* StoryboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE4ADD7E2D3E6EFD0048CDA1 /* Cells */,
+				CE4ADD7F2D3E6EFD0048CDA1 /* SOTBaseExercisesDetailScreenView.storyboard */,
+				CE4ADD802D3E6EFD0048CDA1 /* SOTBaseExercisesScreenView.storyboard */,
+				CE4ADD812D3E6EFD0048CDA1 /* SOTLoaderScreenView.storyboard */,
+				CE4ADD822D3E6EFD0048CDA1 /* SOTMainScreenView.storyboard */,
+				CE4ADD832D3E6EFD0048CDA1 /* SOTSettings.storyboard */,
+				CE4ADD842D3E6EFD0048CDA1 /* SOTWorkoutADDScreenView.storyboard */,
+				CE4ADD852D3E6EFD0048CDA1 /* SOTWorkoutDetailScreenView.storyboard */,
+				CE4ADD862D3E6EFD0048CDA1 /* SOTWorkoutScreenView.storyboard */,
+				CE4ADD942D3E6F240048CDA1 /* SOTVideoTrainScreenView.storyboard */,
+				CE4ADD9E2D3E8D430048CDA1 /* SOTProfileScreenView.storyboard */,
+				CE4ADDA22D3EB0420048CDA1 /* SOTGoalsScreenView.storyboard */,
+			);
+			path = StoryboardScreen;
+			sourceTree = "<group>";
+		};
+		CE97CB7D2D39899E00A4C127 = {
+			isa = PBXGroup;
+			children = (
+				CE97CBA52D3989E500A4C127 /* ShootOut */,
+				CE4ADD322D3CF9180048CDA1 /* Frameworks */,
+				CE97CB872D39899E00A4C127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE97CB872D39899E00A4C127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CB862D39899E00A4C127 /* ShootOut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE97CBA52D3989E500A4C127 /* ShootOut */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CBB32D39953A00A4C127 /* Resources */,
+				CE97CB9E2D3989E500A4C127 /* AppDelegate.swift */,
+				CE97CB9F2D3989E500A4C127 /* Assets.xcassets */,
+				CE97CBA02D3989E500A4C127 /* Info.plist */,
+				CE4ADD872D3E6EFD0048CDA1 /* StoryboardScreen */,
+				CE97CBA22D3989E500A4C127 /* LaunchScreen.storyboard */,
+				CE4ADD3C2D3D3B5E0048CDA1 /* ControllersCell */,
+				CE97CBA32D3989E500A4C127 /* SceneDelegate.swift */,
+				CE97CBDE2D3AE23700A4C127 /* SOTBaseController.swift */,
+				CE97CBAC2D39921300A4C127 /* ShootOutLoaderViewController.swift */,
+				CE97CBAE2D3992A500A4C127 /* ShootOutMainViewController.swift */,
+				CE97CBDA2D3AD7A700A4C127 /* ShootOutSettingsViewController.swift */,
+				CE8CE3C02D3BD3690090F5EF /* ShootOutBaseExercisesViewController.swift */,
+				CE8CE3C22D3BD4250090F5EF /* ShootOutBaseExercisesDetail.swift */,
+				CE4ADD1C2D3C55360048CDA1 /* ShootOutWorkoutViewController.swift */,
+				CE4ADD3A2D3D3B530048CDA1 /* ShootOutWorkoutADDViewController.swift */,
+				CE4ADD432D3E6BA50048CDA1 /* ShootOutWorkoutDetailViewController.swift */,
+				CE4ADD962D3E770C0048CDA1 /* ShootOutVideoViewController.swift */,
+				CE4ADDA02D3E93120048CDA1 /* ShootOutProfileViewController.swift */,
+				CE4ADDA42D3EB0850048CDA1 /* ShootOutGoalsViewController.swift */,
+				CE4ADD352D3CF94B0048CDA1 /* SOTInfo.xcdatamodeld */,
+			);
+			path = ShootOut;
+			sourceTree = "<group>";
+		};
+		CE97CBB32D39953A00A4C127 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CBB42D39955800A4C127 /* Fonts */,
+				CE97CBDC2D3ADE9800A4C127 /* UIColor.swift */,
+				CE97CBE02D3AE86000A4C127 /* ThemeManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE97CBB42D39955800A4C127 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CBB62D3995F800A4C127 /* Bungee */,
+				CE97CBC52D3995F800A4C127 /* Karla */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE97CBB62D3995F800A4C127 /* Bungee */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CBB52D3995F800A4C127 /* Bungee-Regular.ttf */,
+			);
+			path = Bungee;
+			sourceTree = "<group>";
+		};
+		CE97CBC52D3995F800A4C127 /* Karla */ = {
+			isa = PBXGroup;
+			children = (
+				CE97CBB72D3995F800A4C127 /* Karla-Bold.ttf */,
+				CE97CBB82D3995F800A4C127 /* Karla-BoldItalic.ttf */,
+				CE97CBB92D3995F800A4C127 /* Karla-ExtraBold.ttf */,
+				CE97CBBA2D3995F800A4C127 /* Karla-ExtraBoldItalic.ttf */,
+				CE97CBBB2D3995F800A4C127 /* Karla-ExtraLight.ttf */,
+				CE97CBBC2D3995F800A4C127 /* Karla-ExtraLightItalic.ttf */,
+				CE97CBBD2D3995F800A4C127 /* Karla-Italic.ttf */,
+				CE97CBBE2D3995F800A4C127 /* Karla-Light.ttf */,
+				CE97CBBF2D3995F800A4C127 /* Karla-LightItalic.ttf */,
+				CE97CBC02D3995F800A4C127 /* Karla-Medium.ttf */,
+				CE97CBC12D3995F800A4C127 /* Karla-MediumItalic.ttf */,
+				CE97CBC22D3995F800A4C127 /* Karla-Regular.ttf */,
+				CE97CBC32D3995F800A4C127 /* Karla-SemiBold.ttf */,
+				CE97CBC42D3995F800A4C127 /* Karla-SemiBoldItalic.ttf */,
+			);
+			path = Karla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE97CB852D39899E00A4C127 /* ShootOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE97CB992D3989A000A4C127 /* Build configuration list for PBXNativeTarget "ShootOut" */;
+			buildPhases = (
+				CE97CB822D39899E00A4C127 /* Sources */,
+				CE97CB832D39899E00A4C127 /* Frameworks */,
+				CE97CB842D39899E00A4C127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShootOut;
+			packageProductDependencies = (
+			);
+			productName = ShootOut;
+			productReference = CE97CB862D39899E00A4C127 /* ShootOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE97CB7E2D39899E00A4C127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CE97CB852D39899E00A4C127 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CE97CB812D39899E00A4C127 /* Build configuration list for PBXProject "ShootOut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE97CB7D2D39899E00A4C127;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE97CB872D39899E00A4C127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE97CB852D39899E00A4C127 /* ShootOut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE97CB842D39899E00A4C127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE97CBC62D3995F800A4C127 /* Karla-ExtraLightItalic.ttf in Resources */,
+				CE4ADD952D3E6F240048CDA1 /* SOTVideoTrainScreenView.storyboard in Resources */,
+				CE97CBC72D3995F800A4C127 /* Karla-MediumItalic.ttf in Resources */,
+				CE97CBC82D3995F800A4C127 /* Karla-Medium.ttf in Resources */,
+				CE97CBC92D3995F800A4C127 /* Karla-ExtraLight.ttf in Resources */,
+				CE97CBCA2D3995F800A4C127 /* Karla-SemiBold.ttf in Resources */,
+				CE97CBCB2D3995F800A4C127 /* Karla-Light.ttf in Resources */,
+				CE97CBCC2D3995F800A4C127 /* Karla-ExtraBold.ttf in Resources */,
+				CE97CBCD2D3995F800A4C127 /* Karla-SemiBoldItalic.ttf in Resources */,
+				CE97CBCE2D3995F800A4C127 /* Karla-BoldItalic.ttf in Resources */,
+				CE97CBCF2D3995F800A4C127 /* Karla-LightItalic.ttf in Resources */,
+				CE4ADD882D3E6EFD0048CDA1 /* CellDateWorkout.xib in Resources */,
+				CE4ADD892D3E6EFD0048CDA1 /* CellForScheldule.xib in Resources */,
+				CE4ADDA32D3EB0430048CDA1 /* SOTGoalsScreenView.storyboard in Resources */,
+				CE4ADD8A2D3E6EFD0048CDA1 /* MainCollectionViewCell.xib in Resources */,
+				CE4ADD9B2D3E787A0048CDA1 /* VideoTrainCollectionViewCell.xib in Resources */,
+				CE4ADD8B2D3E6EFD0048CDA1 /* SubcategoryCollectionViewCell.xib in Resources */,
+				CE4ADD8C2D3E6EFD0048CDA1 /* SOTBaseExercisesDetailScreenView.storyboard in Resources */,
+				CE4ADD8D2D3E6EFD0048CDA1 /* SOTBaseExercisesScreenView.storyboard in Resources */,
+				CE4ADDA92D3EE1AF0048CDA1 /* GoalsCollectionViewCell.xib in Resources */,
+				CE4ADD8E2D3E6EFD0048CDA1 /* SOTLoaderScreenView.storyboard in Resources */,
+				CE4ADD8F2D3E6EFD0048CDA1 /* SOTMainScreenView.storyboard in Resources */,
+				CE4ADD902D3E6EFD0048CDA1 /* SOTSettings.storyboard in Resources */,
+				CE4ADD912D3E6EFD0048CDA1 /* SOTWorkoutADDScreenView.storyboard in Resources */,
+				CE4ADD922D3E6EFD0048CDA1 /* SOTWorkoutDetailScreenView.storyboard in Resources */,
+				CE4ADD932D3E6EFD0048CDA1 /* SOTWorkoutScreenView.storyboard in Resources */,
+				CE4ADD9F2D3E8D430048CDA1 /* SOTProfileScreenView.storyboard in Resources */,
+				CE97CBD02D3995F800A4C127 /* Bungee-Regular.ttf in Resources */,
+				CE97CBD12D3995F800A4C127 /* Karla-Regular.ttf in Resources */,
+				CE97CBD22D3995F800A4C127 /* Karla-ExtraBoldItalic.ttf in Resources */,
+				CE97CBD32D3995F800A4C127 /* Karla-Italic.ttf in Resources */,
+				CE97CBD42D3995F800A4C127 /* Karla-Bold.ttf in Resources */,
+				CE97CBA92D3989E500A4C127 /* Assets.xcassets in Resources */,
+				CE97CBAB2D3989E500A4C127 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE97CB822D39899E00A4C127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE97CBAD2D39921300A4C127 /* ShootOutLoaderViewController.swift in Sources */,
+				CE8CE3CB2D3BDC690090F5EF /* SubcategoryCollectionViewCell.swift in Sources */,
+				CE4ADD3B2D3D3B530048CDA1 /* ShootOutWorkoutADDViewController.swift in Sources */,
+				CE97CBDD2D3ADE9800A4C127 /* UIColor.swift in Sources */,
+				CE4ADD402D3D801A0048CDA1 /* SchelduleCollectionViewCell.swift in Sources */,
+				CE8CE3C12D3BD3690090F5EF /* ShootOutBaseExercisesViewController.swift in Sources */,
+				CE97CBA62D3989E500A4C127 /* AppDelegate.swift in Sources */,
+				CE4ADD9D2D3E7A6B0048CDA1 /* VideoCollectionViewCell.swift in Sources */,
+				CE8CE3C32D3BD4250090F5EF /* ShootOutBaseExercisesDetail.swift in Sources */,
+				CE97CBE12D3AE86000A4C127 /* ThemeManager.swift in Sources */,
+				CE4ADD1D2D3C55360048CDA1 /* ShootOutWorkoutViewController.swift in Sources */,
+				CE97CBA72D3989E500A4C127 /* SceneDelegate.swift in Sources */,
+				CE4ADD972D3E770C0048CDA1 /* ShootOutVideoViewController.swift in Sources */,
+				CE8CE3C92D3BDC3F0090F5EF /* MainCollectionViewCell.swift in Sources */,
+				CE4ADDA52D3EB0850048CDA1 /* ShootOutGoalsViewController.swift in Sources */,
+				CE97CBDF2D3AE23700A4C127 /* SOTBaseController.swift in Sources */,
+				CE97CBAF2D3992A500A4C127 /* ShootOutMainViewController.swift in Sources */,
+				CE4ADD372D3CF94B0048CDA1 /* SOTInfo.xcdatamodeld in Sources */,
+				CE97CBDB2D3AD7A700A4C127 /* ShootOutSettingsViewController.swift in Sources */,
+				CE4ADD442D3E6BA50048CDA1 /* ShootOutWorkoutDetailViewController.swift in Sources */,
+				CE4ADDA12D3E93120048CDA1 /* ShootOutProfileViewController.swift in Sources */,
+				CE4ADDAB2D3EE7F70048CDA1 /* GoalsCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE97CBA22D3989E500A4C127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE97CBA12D3989E500A4C127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE97CB9A2D3989A000A4C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJW59HMWYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShootOut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShootOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE97CB9B2D3989A000A4C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VJW59HMWYR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShootOut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShootOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE97CB9C2D3989A000A4C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE97CB9D2D3989A000A4C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE97CB812D39899E00A4C127 /* Build configuration list for PBXProject "ShootOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE97CB9C2D3989A000A4C127 /* Debug */,
+				CE97CB9D2D3989A000A4C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE97CB992D3989A000A4C127 /* Build configuration list for PBXNativeTarget "ShootOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE97CB9A2D3989A000A4C127 /* Debug */,
+				CE97CB9B2D3989A000A4C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE4ADD352D3CF94B0048CDA1 /* SOTInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE4ADD362D3CF94B0048CDA1 /* SOTInfo.xcdatamodel */,
+			);
+			currentVersion = CE4ADD362D3CF94B0048CDA1 /* SOTInfo.xcdatamodel */;
+			path = SOTInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE97CB7E2D39899E00A4C127 /* Project object */;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="VideoCollectionViewCell" reuseIdentifier="VideoCollectionViewCell" id="luX-rt-Dko" customClass="VideoCollectionViewCell" customModule="ShootOut" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xls-xM-kPh">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dre-DE-l9z">
+                        <rect key="frame" x="0.0" y="0.0" width="326" height="129"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dribbling2" translatesAutoresizingMaskIntoConstraints="NO" id="eDB-Pe-176">
+                                <rect key="frame" x="8" y="19.666666666666671" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="2AB-J7-j2f"/>
+                                    <constraint firstAttribute="height" constant="90" id="F1v-Er-eze"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFj-tG-8LC">
+                                <rect key="frame" x="102" y="19.666666666666671" width="198" height="25.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIN-HW-T4y">
+                                <rect key="frame" x="102" y="73.666666666666629" width="198" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="View on YouTube">
+                                    <color key="titleColor" red="0.037925414312576469" green="0.071057709294733762" blue="0.64495005397506822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nA0-Dm-Cqk">
+                                <rect key="frame" x="102" y="49" width="198" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23653496702858834" green="0.25561264696201108" blue="0.58826571699999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OIN-HW-T4y" firstAttribute="leading" secondItem="eDB-Pe-176" secondAttribute="trailing" constant="4" id="2vq-Sp-9u4"/>
+                            <constraint firstItem="JFj-tG-8LC" firstAttribute="leading" secondItem="eDB-Pe-176" secondAttribute="trailing" constant="4" id="65Q-uU-Qp7"/>
+                            <constraint firstItem="OIN-HW-T4y" firstAttribute="width" secondItem="nA0-Dm-Cqk" secondAttribute="width" id="AFt-9H-d1V"/>
+                            <constraint firstItem="nA0-Dm-Cqk" firstAttribute="leading" secondItem="eDB-Pe-176" secondAttribute="trailing" constant="4" id="Cyt-8L-5X4"/>
+                            <constraint firstItem="nA0-Dm-Cqk" firstAttribute="width" secondItem="JFj-tG-8LC" secondAttribute="width" id="PXc-rd-IfR"/>
+                            <constraint firstItem="OIN-HW-T4y" firstAttribute="bottom" secondItem="eDB-Pe-176" secondAttribute="bottom" id="cWS-PU-th9"/>
+                            <constraint firstItem="eDB-Pe-176" firstAttribute="centerY" secondItem="Dre-DE-l9z" secondAttribute="centerY" id="oWA-Cd-Qd3"/>
+                            <constraint firstItem="JFj-tG-8LC" firstAttribute="top" secondItem="eDB-Pe-176" secondAttribute="top" id="pbh-9A-fAE"/>
+                            <constraint firstItem="nA0-Dm-Cqk" firstAttribute="top" secondItem="JFj-tG-8LC" secondAttribute="bottom" constant="4" id="qok-JG-9jI"/>
+                            <constraint firstItem="eDB-Pe-176" firstAttribute="leading" secondItem="Dre-DE-l9z" secondAttribute="leading" constant="8" id="sQ4-3Z-OU0"/>
+                            <constraint firstItem="JFj-tG-8LC" firstAttribute="width" secondItem="Dre-DE-l9z" secondAttribute="width" multiplier="0.607362" id="syh-Ii-Wcz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Dre-DE-l9z" firstAttribute="leading" secondItem="xls-xM-kPh" secondAttribute="leading" id="NEo-xx-QK0"/>
+                    <constraint firstItem="Dre-DE-l9z" firstAttribute="top" secondItem="xls-xM-kPh" secondAttribute="top" id="V7D-n1-GNl"/>
+                    <constraint firstAttribute="bottom" secondItem="Dre-DE-l9z" secondAttribute="bottom" id="v0r-M1-dD5"/>
+                    <constraint firstAttribute="trailing" secondItem="Dre-DE-l9z" secondAttribute="trailing" id="vvS-VY-ieh"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="326" height="129"/>
+            <connections>
+                <outlet property="category" destination="JFj-tG-8LC" id="wNX-iN-dgy"/>
+                <outlet property="imageVideo" destination="eDB-Pe-176" id="KkS-Fx-Z3h"/>
+                <outlet property="linkForYuotube" destination="OIN-HW-T4y" id="ifK-11-jpa"/>
+                <outlet property="subcategory" destination="nA0-Dm-Cqk" id="9bq-Xn-e5T"/>
+            </connections>
+            <point key="canvasLocation" x="352.67175572519085" y="-18.661971830985916"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Dribbling2" width="1210" height="678"/>
+    </resources>
+</document>

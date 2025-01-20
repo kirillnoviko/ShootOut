@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="GoalsCollectionViewCell" reuseIdentifier="GoalsCollectionViewCell" id="CoM-eA-4hT" customClass="GoalsCollectionViewCell" customModule="ShootOut" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="237" height="306"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rRz-dI-YAa">
+                <rect key="frame" x="0.0" y="0.0" width="237" height="306"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2B-ce-xyD">
+                        <rect key="frame" x="0.0" y="0.0" width="237" height="306"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mp2-yz-31l">
+                                <rect key="frame" x="5" y="198.33333333333334" width="220.66666666666666" height="51.666666666666657"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8d-VN-GM6">
+                                <rect key="frame" x="8" y="254" width="221" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Mark progress">
+                                    <color key="titleColor" red="0.29435401080000001" green="0.4859285948" blue="0.69022047519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxr-DK-G4z">
+                                <rect key="frame" x="-1.6666666666666714" y="0.0" width="240.33333333333337" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23653496700000001" green="0.25561264700000003" blue="0.58826571699999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hxr-DK-G4z" firstAttribute="top" secondItem="g2B-ce-xyD" secondAttribute="top" id="NhT-O0-4Yv"/>
+                            <constraint firstItem="hxr-DK-G4z" firstAttribute="centerX" secondItem="g2B-ce-xyD" secondAttribute="centerX" id="O0L-59-5Ag"/>
+                            <constraint firstItem="hxr-DK-G4z" firstAttribute="height" secondItem="g2B-ce-xyD" secondAttribute="height" multiplier="0.418301" id="hxC-bf-LIG"/>
+                            <constraint firstItem="hxr-DK-G4z" firstAttribute="width" secondItem="g2B-ce-xyD" secondAttribute="width" multiplier="1.01266" id="onn-9A-3rD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g2B-ce-xyD" firstAttribute="leading" secondItem="rRz-dI-YAa" secondAttribute="leading" id="0Fg-GD-Cbs"/>
+                    <constraint firstAttribute="bottom" secondItem="g2B-ce-xyD" secondAttribute="bottom" id="0R6-7b-fv6"/>
+                    <constraint firstAttribute="trailing" secondItem="g2B-ce-xyD" secondAttribute="trailing" id="1nB-6l-ghS"/>
+                    <constraint firstAttribute="trailing" secondItem="g2B-ce-xyD" secondAttribute="trailing" id="6A3-XV-I6G"/>
+                    <constraint firstItem="g2B-ce-xyD" firstAttribute="top" secondItem="rRz-dI-YAa" secondAttribute="top" id="H3C-Go-HgS"/>
+                    <constraint firstAttribute="bottom" secondItem="g2B-ce-xyD" secondAttribute="bottom" id="VRP-T7-HBx"/>
+                    <constraint firstItem="g2B-ce-xyD" firstAttribute="top" secondItem="rRz-dI-YAa" secondAttribute="top" id="h68-T3-1Hi"/>
+                    <constraint firstItem="g2B-ce-xyD" firstAttribute="leading" secondItem="rRz-dI-YAa" secondAttribute="leading" id="twa-L9-a27"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="237" height="306"/>
+            <point key="canvasLocation" x="313.74045801526717" y="71.83098591549296"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
